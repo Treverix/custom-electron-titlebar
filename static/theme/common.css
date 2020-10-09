@@ -16,7 +16,7 @@
     line-height: 22px;
     height: 22px;
     display: flex;
-    z-index: 99999;
+    z-index: 999999;
 }
 
 .titlebar.cet-windows, .titlebar.cet-linux {
@@ -301,4 +301,18 @@
     left: 0;
     width: 6px;
     height: 100%;
+}
+
+
+/* Wordpress fix */
+#wpadminbar{
+top: 30px; !important
+}
+
+#adminmenu{
+margin: 40px 0; !important
+}
+
+#wpbody{
+top: 32px; !important
 }
